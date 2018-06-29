@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(cpp01_2 VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
+project(hello VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 add_executable(hello main.cpp)
 
